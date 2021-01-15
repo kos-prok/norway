@@ -375,6 +375,17 @@ nav .navbar-expand-lg {
     margin-left: 85px;
 }
 
+.about-norway {
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.about-norway .col-md-4.mr-auto img {
+    margin: 0;
+    vertical-align: top;
+    border-style: none;
+}
+
 @media (max-width: 1920px) {
     .wrap_cover {
         background: url('../img/bg/promo_bg.png') no-repeat 91.56% 51.56% / cover;
