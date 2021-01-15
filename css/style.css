@@ -1,16 +1,16 @@
 :root {
-    --white: #ffffff;
-    --red: #ee2e14;
-    --gray: #505155;
-    --light-gray: #6f7380;
-    --white-gray: #a9a9a9;
-    --blue: #14a9ee;
-    --black: #232428;
-    --font-family-serif: 'Playfair Display', serif;
+    --white: #ffffff; 
+    --red: #ee2e14; 
+    --gray: #505155; 
+    --light-gray: #6f7380; 
+    --white-gray: #a9a9a9; 
+    --blue: #14a9ee; 
+    --black: #232428; 
+    --font-family-serif: 'Playfair Display', serif; 
     scroll-behavior: smooth;
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
     margin-top: 0;
@@ -85,8 +85,8 @@ nav .navbar-collapse {
 nav .container .nav-item a {
     color: var(--white);
     font-size: 15px;
-    font-weight:600;
-    text-decoration:none;
+    font-weight: 600;
+    text-decoration: none;
     display: inline-block;
     position: relative;
 }
@@ -187,24 +187,24 @@ nav .navbar-expand-lg {
 
 .promo .promo_schedule .promo_subheader {
     font-size: 13px;
-    font-weight:500;
+    font-weight: 500;
 }
 
 .promo .promo_schedule .promo_subheader .promo_subheader_bold {
-    font-weight:700;
+    font-weight: 700;
 }
 
 .promo .promo_schedule .promo_subheader_text {
     color: rgba(255,255,255,0.75);
     font-size: 13px;
-    font-weight:500;
+    font-weight: 500;
 }
 
 .promo .promo_schedule .promo_subheader_more {
     color: var(--white);
     font-size: 14px;
-    font-weight:700;
-    text-decoration:none;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .promo_label, .about_label, .route_label, .about-norway_label, .places_label, .stunning_spots_label, .faq_label, .contact_label, .reviews_label {
@@ -247,7 +247,7 @@ nav .navbar-expand-lg {
     display: inline;
 }
 
-.about-us .col-md-6 .about_text{
+.about-us .col-md-6 .about_text {
     font-size: 19px;
     font-weight: 400;
     line-height: 32px;
@@ -295,7 +295,7 @@ nav .navbar-expand-lg {
     background: url('../img/bg/route_bg.png') no-repeat 48.13% 50% / cover;
     padding-top: 80px;
     padding-bottom: 80px;
-    color:white;
+    color: white;
 }
 
 .route .col-lg-5, .col-xl-6, .col-lg-7, .col-xl-6 {
@@ -367,7 +367,7 @@ nav .navbar-expand-lg {
 
 .route .reasons_round {
     position: absolute;
-    border-radius:50%;
+    border-radius: 50%;
     background: rgba(255, 255, 255, 0.05);
 }
 
@@ -387,13 +387,11 @@ nav .navbar-expand-lg {
     }
 }
 
-
 @media (min-width: 768px) and (max-width:991px) {
     nav.navbar.navbar-expand-lg.navbar-custom {
         background-color:black;
     }
 }
-
 
 @media (min-width: 768px) and (max-width:991px) {
     h1 {
@@ -434,31 +432,30 @@ nav .navbar-expand-lg {
 }
 
 @media (min-width: 768px) and (max-width:991px) {
-    .promo .col-md-12  {
-            padding-top: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .promo .col-md-12  {
+    .promo .col-md-12 {
         padding-top: 0;
     }
 }
 
+@media (max-width: 767px) {
+    .promo .col-md-12 {
+        padding-top: 0;
+    }
+}
 
 @media (max-width: 767px) {
     .about-us .col-md-6 .about_head span, h2 {
-    font-size: 34px;
-    letter-spacing: 1.02px;
-    line-height: 41px;
+        font-size: 34px;
+        letter-spacing: 1.02px;
+        line-height: 41px;
     }
 }
 
 @media (max-width: 320px) {
     .about-us .col-md-6 .about_head span, h2 {
-    font-size: 28px;
-    letter-spacing: 0.9px;
-    line-height: 35px;
+        font-size: 28px;
+        letter-spacing: 0.9px;
+        line-height: 35px;
     }
 }
 
